@@ -1,0 +1,18 @@
+[font]
+
+# Normal font style
+normal = { family = "Hack Nerd Font", style = "Regular" }
+
+size = 14
+
+[keyboard]
+
+bindings = [
+    { key = ";", mods = "Command", action = "IncreaseFontSize" },
+    { key = "Left", mods = "Alt", chars = "\u001bB" },
+    { key = "Right", mods = "Alt", chars = "\u001bF" },
+]
+
+[window]
+
+option_as_alt = "OnlyRight"
